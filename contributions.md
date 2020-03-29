@@ -5,25 +5,25 @@ title: Contributions
 
 ## CORD19-based Contributions
 
-### ATC Network
+### [ATC Network](graph.html)
 
 Discover how the Anatomical Therapeutic Chemical Classification System is present in this area
 
 ![ATC Network](../img/contributions/graph-3.png)
 
-### Corpus Browsing
+### [Corpus Browsing](explorer.html)
 Browse the CORD19 corpus discovering related articles
 ![Corpus Browsing](../img/contributions/explorer-2.png)
 
-### Bio-NLP
+### [Bio-NLP](http://librairy.github.io/bio-nlp/)
 Identifies drugs (and ATC codes) in pieces of text
 
 ![Bio-NLP](../img/contributions/bio-nlp-2.png)
 
-### CORD19 Stats
+### [CORD19 Stats](http://librairy.linkeddata.es/data/dashboard)
 Some statistics about this annotated corpus. Use the GIST code: 4f726911fd9908ffc3a46837b15d8011
   
-[CORD19 Stats](../img/contributions/dashboard-2.png)
+![CORD19 Stats](../img/contributions/dashboard-2.png)
             
             
 <!-- Section 
