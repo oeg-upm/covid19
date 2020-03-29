@@ -1,50 +1,22 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: base
+---
 
-{% include head.html %}
+{% include header.html type="page" %}
 
-<body>
-
-<!-- Wrapper -->
-<div id="wrapper">
-
-    <!-- Main -->
-    <div id="main">
-        <div class="inner">
-
-            {% include header.html %}
-
-            <!-- Content -->
-            <section>
-                <header class="main">
-                    <h1>{{ page.title }}</h1>
-                </header>
-
-                {% if page.image %}
-                <span class="image main">
-                        <img src="{{ page.image | absolute_url }}" alt=""/>
-                        {% if page.image-caption %}
-                            <p style="text-align: center; font-style: italic;">{{ page.image-caption }}</p>
-                        {% endif %}
-                    </span>
-                {% endif %}
-
-                {{ content }}
-
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{ content }}
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
         </div>
+	        {% include fb-comment.html %}
+        <div class="staticman-comments">
+          {% include staticman-comments.html %}
+        </div>
+	    {% endif %}
     </div>
-
-    {% include sidebar.html %}
-
+  </div>
 </div>
-
-{% include footer.html %}
-
-</body>
-
-</html>

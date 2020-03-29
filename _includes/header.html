@@ -1,36 +1,76 @@
-<!-- Header -->
-  <header id="header">
-    <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
-    <ul class="icons">
-      {% if site.twitter_url %}
-      <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-      {% endif %}
-      {% if site.googleplus_url %}
-      <li><a href="{{ site.googleplus_url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
-      {% endif %}
-      {% if site.facebook_url %}
-      <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-      {% endif %}
-      {% if site.instagram_url %}
-      <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-      {% endif %}
-      {% if site.pinterest_url %}
-      <li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-      {% endif %}
-      {% if site.500px_url %}
-      <li><a href="{{ site.500px_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
-      {% endif %}
-      {% if site.gitlab_url %}
-      <li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
-      {% endif %}
-      {% if site.github_url %}
-      <li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-      {% endif %}
-      {% if site.slack_url %}
-      <li><a href="{{ site.slack_url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
-      {% endif %}
-      {% if site.linkedin_url %}
-      <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-      {% endif %}
-    </ul>
-  </header>
+<!-- TODO this file has become a mess, refactor it -->
+
+{% if page.bigimg or page.title %}
+
+{% if page.bigimg %}
+  <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
+    {% for bigimg in page.bigimg %}
+	  {% assign imgnum = forloop.index %}
+	  {% for imginfo in bigimg %}
+	    {% if imginfo[0] %}
+		  data-img-src-{{ imgnum }}="{{ imginfo[0] | relative_url }}"
+		  data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
+		{% else %}
+		  data-img-src-{{ imgnum }}="{{ imginfo | relative_url }}"
+		{% endif %}
+	  {% endfor %}
+    {% endfor %}
+  ></div>
+{% endif %}
+
+<header class="header-section {% if page.bigimg %}has-img{% endif %}">
+{% if page.bigimg %}
+<div class="big-img intro-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="{{ include.type }}-heading">
+          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
+		  {% if page.subtitle %}
+		    {% if include.type == "page" %}
+            <hr class="small">
+            <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+			{% else %}
+			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			{% endif %}
+		  {% endif %}
+		  
+		  {% if include.type == "post" %}
+		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+		  {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
+{% endif %}
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="{{ include.type }}-heading">
+          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
+		  {% if page.subtitle %}
+		    {% if include.type == "page" %}
+            <hr class="small">
+            <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+			{% else %}
+			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			{% endif %}
+		  {% endif %}
+		  
+		  {% if include.type == "post" %}
+		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+		  {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+{% else %}
+<div class="intro-header"></div>
+{% endif %}
