@@ -15,7 +15,7 @@ El 16 de marzo del 2020, la Oficina de Política Científica y Tecnológica de l
 
 En nuestro grupo llevamos trabajando varios años en el procesamiento de grandes corpus de textos, así que también nos hemos puesto a trabajar para intentar aportar nuestro grano de arena en la solución de estos problemas y por eso lanzamos esta [iniciativa abierta](https://oeg-upm.github.io/covid19/colabora/). 
 
-## Nuestra pregunta: ¿es posible relacionar de algún modo principios activos, grupos terapéuticos, pruebas, tratamientos y diagnósticos que se están reportando en la literatura científica?
+### Nuestra pregunta: ¿es posible relacionar de algún modo principios activos, grupos terapéuticos, pruebas, tratamientos y diagnósticos que se están reportando en la literatura científica?
 
 La pregunta con la que hemos comenzado a trabajar es esta. Queremos ser capaces de ofrecer herramientas a la comunidad científica, así como a responsables de la gestión de la epidemia, que faciliten la navegación por el corpus para poder entender mejor qué tipos de tratamientos se han probado según lo reportado en la documentación científica, y así permitir entender mejor qué combinaciones de principios activos han sido probadas, lo que podría servir, por ejemplo, para definir nuevos protocolos clínicos de tratamiento para pacientes con algunas condiciones específicas.
 
