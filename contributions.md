@@ -1,32 +1,32 @@
 ---
 layout: page
-title: Contributions
+title: Contribuciones
 ---
 
-## CORD19-based Contributions
+Detallamos aquí algunas de las contribuciones que hemos subido hasta ahora
 
-### [ATC Network](http://librairy.github.io/covid19/graph.html)
+### [Grafo ATC](http://librairy.github.io/covid19/graph.html)
 
-Discover how the Anatomical Therapeutic Chemical Classification System is present in this area
+Una representación gráfica que permite descubrir como la clasificación ATC (Anatomical Therapeutic Chemical Classification System) está presente en el corpus
 
-![ATC Network](../img/contributions/graph-3.png)
+![Grafo ATC](../img/contributions/graph-3.png)
 
-### [Corpus Browsing](http://librairy.github.io/covid19/explorer.html)
+### [Navegador por el corpus](http://librairy.github.io/covid19/explorer.html)
 
-Browse the CORD19 corpus discovering related articles
+Navega por el corpus CORD19 descubriendo artículos relacionados
 
-![Corpus Browsing](../img/contributions/explorer-2.png)
+![Navegador por el corpus](../img/contributions/explorer-2.png)
 
 ### [Bio-NLP](http://librairy.github.io/bio-nlp/)
-Identifies drugs (and ATC codes) in pieces of text
+Identifica medicamentos y principios activos (y sus códigos ATC) en textos
 
 ![Bio-NLP](../img/contributions/bio-nlp-2.png)
 
-### [CORD19 Stats](http://librairy.linkeddata.es/data/dashboard)
+### [Dashboard CORD19](http://librairy.linkeddata.es/data/dashboard)
 
-Some statistics about this annotated corpus. Use the GIST code: 4f726911fd9908ffc3a46837b15d8011
+Un dashboard con algunas estadísticas sobre el corpus anotado. Usa el código GIST: 4f726911fd9908ffc3a46837b15d8011
 
-![CORD19 Stats](../img/contributions/dashboard-2.png)
+![Dashboard CORD19](../img/contributions/dashboard-2.png)
 
 
 <!-- Section
