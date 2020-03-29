@@ -19,7 +19,7 @@ title: Contributions
                 <p class="mb-0">Discover how the Anatomical Therapeutic Chemical Classification System is present in this area</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/graph-3.png" alt="">
+            <img class="img-fluid" src="../img/contributions/graph-3.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -30,7 +30,7 @@ title: Contributions
                 <p class="mb-0">Browse the CORD19 corpus discovering related articles</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/explorer-2.png" alt="">
+            <img class="img-fluid" src="../img/contributions/explorer-2.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -41,7 +41,7 @@ title: Contributions
                 <p class="mb-0">Identifies drugs (and ATC codes) in pieces of text</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/bio-nlp-2.png" alt="">
+            <img class="img-fluid" src="../img/contributions/bio-nlp-2.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -52,7 +52,7 @@ title: Contributions
                 <p class="mb-0">Some statistics about this annotated corpus. Use the GIST code: 4f726911fd9908ffc3a46837b15d8011</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/dashboard-2.png" alt="">
+            <img class="img-fluid" src="../img/contributions/dashboard-2.png" alt="">
           </a>
         </div>
       </div>
