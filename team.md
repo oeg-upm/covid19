@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+title: The MINT Team
 ---
 
 <!-- Section -->
