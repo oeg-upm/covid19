@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Inicio
 ---
 
 ### En este artículo contamos los esfuerzos que estamos haciendo desde el Ontology Engineering Group de la Universidad Politécnica de Madrid para intentar dar a la comunidad científica y terapéutica respuestas a algunas de sus preguntas, que pueden ser encontradas en la literatura científica que se ha publicado sobre el COVID-19
