@@ -21,7 +21,7 @@ description: A virtual proof that I'm awesome
 # List of links in the navigation bar
 navbar-links:
   Servicios: "servicios"
-  Contribuciones: "contirbutions"
+  Contribuciones: "contributions"
   Colabora: "colabora"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
