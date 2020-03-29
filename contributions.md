@@ -2,6 +2,7 @@
 layout: page
 title: Contribuciones
 ---
+###English Below
 
 Detallamos aquí algunas de las contribuciones que hemos subido hasta ahora
 
@@ -28,6 +29,32 @@ Un dashboard con algunas estadísticas sobre el corpus anotado. Usa el código G
 
 ![Dashboard CORD19](../img/contributions/dashboard-2.png)
 
+
+### ENLGISH
+Here we show some of the contributions that we have uploaded so far in more detail
+
+### [ATC Graph] (http://librairy.github.io/covid19/graph.html)
+
+A graphic representation that allows us to discover how the ATC classification (Anatomical Therapeutic Chemical Classification System) is present in the corpus
+
+! [ATC Graph] (../ img / contributions / graph-3.png)
+
+### [Corpus Browser] (http://librairy.github.io/covid19/explorer.html)
+
+Browse the CORD19 corpus discovering related articles
+
+! [Corpus browser] (../ img / contributions / explorer-2.png)
+
+### [Bio-NLP] (http://librairy.github.io/bio-nlp/)
+Identify drugs and active ingredients (and their ATC codes) in texts
+
+! [Bio-NLP] (../ img / contributions / bio-nlp-2.png)
+
+### [Dashboard CORD19] (http://librairy.linkeddata.es/data/dashboard)
+
+A dashboard with some statistics on the annotated corpus. Use the GIST code: 4f726911fd9908ffc3a46837b15d8011
+
+! [Dashboard CORD19] (../ img / contributions / dashboard-2.png)
 
 <!-- Section
 <section>
