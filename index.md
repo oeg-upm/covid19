@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IA para parar el COVID-19
+title: IA & COVID-19
 subtitle: Aplicando técnicas de Inteligencia Artificial sobre artículos científicos relacionados con el COVID-19
 use-site-title: true
 ---
@@ -8,8 +8,6 @@ use-site-title: true
 ### En este site queremos centralizar todos los esfuerzos que podamos realizar para aplicar técnicas de Inteligencia Artificial sobre el corpus abierto de literatura científica que se ha publicado sobre el COVID-19 (CORD-19)
 
 Desde mediados de marzo, el Allen Institute for Artificial Intelligence mantiene un [corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A 27 de marzo de 2020 este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
-
-![CORD-19](./img/cord-19.png)
 
 Esta ingente cantidad de literatura científica que se ha generado en apenas unos meses desde la aparición del virus demuestra la gran actividad que se ha generado desde el punto de vista científico para su estudio. Pero al mismo tiempo, es tan grande que se ha convertido en un problema para poder encontrar información específica sobre un tipo de tratamiento que se ha probado en algún grupo específico de la población, relaciones entre tratamientos, resultados obtenidos, etc. Esto es lo que normalmente se conoce como sobrecarga de información.
 
