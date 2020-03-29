@@ -7,9 +7,7 @@ use-site-title: true
 
 ### En este site queremos centralizar todos los esfuerzos que podamos realizar para aplicar técnicas de Inteligencia Artificial sobre el copurs abierto de literatura científica que se ha publicado sobre el COVID-19 (CORD-18)
 
-Esta iniciativa ha surgido a partir de los esfuerzos iniciales del [Grupo de Ingeniería Ontológica](http://www.oeg-upm.net) de la [Escuela Técnica Superior de Ingenieros Informáticos](http://www.fi.upm.es) de la [Universidad Politécnica de Madrid](http://www.upm.es/), pero se trata de una iniciativa completamente abierta a toda la comunidad académica y de desarrolladores interesados en la aplicación de la Inteligencia Artificial para intentar ayudar a la comunidad científica y médica.
-
-Todo comenzó a mediados de marzo, cuando el Allen Institute for Artificial Intelligence mantiene un [corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A 27 de marzo de 2020 este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
+Desde mediados de marzo, el Allen Institute for Artificial Intelligence mantiene un [corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A 27 de marzo de 2020 este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
 
 Esta ingente cantidad de literatura científica que se ha generado en apenas unos meses desde la aparición del virus demuestra la gran actividad que se ha generado desde el punto de vista científico para su estudio. Pero al mismo tiempo, es tan grande que se ha convertido en un problema para poder encontrar información específica sobre un tipo de tratamiento que se ha probado en algún grupo específico de la población, relaciones entre tratamientos, resultados obtenidos, etc. Esto es lo que normalmente se conoce como sobrecarga de información.
 
