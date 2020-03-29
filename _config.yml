@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: AI para parar el COVID-19
+title:IA&COVID-19
 
 # Short description of your site
-description: Artificial Intelligence to help stop COVID-19
+description: Artificial Intelligence to help stop COVID-19 - Inteligencia Artificial para parar al COVID-19
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -63,7 +63,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Ontology Engineering Group and many other people
+  name: Ontology Engineering Group y muchas otras personas
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
