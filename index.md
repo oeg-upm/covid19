@@ -1,19 +1,21 @@
 ---
 layout: page
-title: OEG-UPM COVID-19
-subtitle: Aplicando técnicas de Inteligencia Artificial sobre el conjunto de artículos científicos relacionados con el COVID-19
+title: IA para parar el COVID-19
+subtitle: Aplicando técnicas de Inteligencia Artificial sobre artículos científicos relacionados con el COVID-19
 use-site-title: true
 ---
 
-### En este artículo contamos los esfuerzos que estamos haciendo desde el Ontology Engineering Group de la Universidad Politécnica de Madrid para intentar dar a la comunidad científica y terapéutica respuestas a algunas de sus preguntas, que pueden ser encontradas en la literatura científica que se ha publicado sobre el COVID-19
+### En este site queremos centralizar todos los esfuerzos que podamos realizar para aplicar técnicas de Inteligencia Artificial sobre el copurs abierto de literatura científica que se ha publicado sobre el COVID-19 (CORD-18)
 
-Desde hace unas semanas, el Allen Institute for Artificial Intelligence mantiene un [corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A fecha de hoy (27 de marzo de 2020) este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
+Esta iniciativa ha surgido a partir de los esfuerzos iniciales del [Grupo de Ingeniería Ontológica](http://www.oeg-upm.net) de la [Escuela Técnica Superior de Ingenieros Informáticos](http://www.fi.upm.es) de la [Universidad Politécnica de Madrid](http://www.upm.es/), pero se trata de una iniciativa completamente abierta a toda la comunidad académica y de desarrolladores interesados en la aplicación de la Inteligencia Artificial para intentar ayudar a la comunidad científica y médica.
+
+Todo comenzó a mediados de marzo, cuando el Allen Institute for Artificial Intelligence mantiene un [corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A 27 de marzo de 2020 este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
 
 Esta ingente cantidad de literatura científica que se ha generado en apenas unos meses desde la aparición del virus demuestra la gran actividad que se ha generado desde el punto de vista científico para su estudio. Pero al mismo tiempo, es tan grande que se ha convertido en un problema para poder encontrar información específica sobre un tipo de tratamiento que se ha probado en algún grupo específico de la población, relaciones entre tratamientos, resultados obtenidos, etc. Esto es lo que normalmente se conoce como sobrecarga de información.
 
 El 16 de marzo del 2020, la Oficina de Política Científica y Tecnológica de la Casa Blanca realizó un llamamiento a la comunidad internacional de Inteligencia Artificial para el desarrollo de técnicas de procesamiento de lenguaje natural y minería de textos que permitieran resolver [preguntas que la comunidad científica se está realizando sobre el COVID-19](https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/). Muchas de estas preguntas están recogidas en la plataforma Kaggle ([https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks)), bien conocida por la comunidad de Ciencia de Datos e Inteligencia Artificial. Aquí se han formulado algunas de esas preguntas que se espera poder responder al procesar toda esta literatura científica. De hecho, a fecha de hoy (27 de marzo de 2020) hay más de 350 trabajos registrados donde se han hecho distintos tipos de tratamientos de los textos que han sido proporcionados.
 
-En nuestro grupo llevamos trabajando varios años en el procesamiento de grandes corpus de textos, así que desde la semana pasada nos hemos puesto a trabajar para intentar aportar nuestro grano de arena en la solución de estos problemas. Os vamos a contar lo que hemos hecho hasta ahora, y los recursos que ponemos a disposición del resto de la comunidad científica, por si pueden resultar útiles. Asimismo, hacemos un llamamiento a todos aquellos que queráis colaborar con nosotros con nuevas preguntas, con la validación de los resultados que hemos obtenido hasta ahora, con la aplicación de nuevos algoritmos, o con cualquier otra cosa que se os ocurra. 
+En nuestro grupo llevamos trabajando varios años en el procesamiento de grandes corpus de textos, así que desde mediados de marzo nos hemos puesto a trabajar para intentar aportar nuestro grano de arena en la solución de estos problemas. Os vamos a contar lo que hemos hecho hasta ahora, y los recursos que ponemos a disposición del resto de la comunidad científica, por si pueden resultar útiles. Asimismo, hacemos un llamamiento a todos aquellos que queráis colaborar con nosotros con nuevas preguntas, con la validación de los resultados que hemos obtenido hasta ahora, con la aplicación de nuevos algoritmos, o con cualquier otra cosa que se os ocurra. 
 
 ## Nuestra pregunta: ¿es posible relacionar de algún modo principios activos, grupos terapéuticos, pruebas, tratamientos y diagnósticos que se están reportando en la literatura científica?
 
