@@ -10,10 +10,10 @@ title: Servicios disponibles
    * Códigos ATC de nivel 4 y 5, generados con el servicio anterior: labels4_t y labels5_t
    * Diagnósticos, patologías y síntomas (generados con la herramienta [CliNER](http://text-machine.cs.uml.edu/cliner/)): annot_cliner_problems_t
 
- Por ejemplo, se pueden resolver consultas como:
-   * Buscar los [artículos científicos en los que aparece la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01).
-   * Buscar los [artículos científicos donde aparecen medicamentos de la familia del lopinavir](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J05AR).
-   * Buscar los [artículos científicos que describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t%3Aantiviral_therapy%20AND%20labels5_t%3AS01AD05)
+ Por ejemplo, se pueden buscar los artículos científicos que:
+   * [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s).
+   * [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s).
+   * [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s)
 
  Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
 
