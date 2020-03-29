@@ -11,8 +11,8 @@ title: Servicios disponibles
    * Diagnósticos, patologías y síntomas (generados con la herramienta [CliNER](http://text-machine.cs.uml.edu/cliner/)): annot_cliner_problems_t
 
  Por ejemplo, se pueden resolver consultas como:
-   * Buscar los [artículos científicos en los que aparece la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01). 
-   * Buscar los [artículos científicos en los que aparece el lopinavir](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:J05AR10).
+   * Buscar los [artículos científicos en los que aparece la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01).
+   * Buscar los [artículos científicos donde aparecen medicamentos de la familia del lopinavir](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J05AR).
    * Buscar los [artículos científicos que describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t%3Aantiviral_therapy%20AND%20labels5_t%3AS01AD05)
 
  Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el GIST 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
@@ -26,6 +26,6 @@ title: Servicios disponibles
 ![Grafo](../img/servicios/graph-1.png "Grafo")
 ![Grafo 2](../img/servicios/graph-2.png "Grafo 2")
 
- * Una [interfaz de navegación](http://demo.inno.oeg-upm.net), desarrollada en colaboración con el [AI.nnovation Space](https://www.ainnovation.upm.es/), que permite hacer búsquedas de palabras clave o términos compuestos generados automáticamente a partir de los textos, y navegar por los artículos científicos cuyo formato PDF está disponible de manera abierta. Por el momento, estos documentos representan una muy pequeña fracción de todos los artículos publicados en el corpus (menos del 3%), aunque se irán incorporando al sistema según se vayan liberando. Por ejemplo, como se muestra en la figura, si se teclea la palabra “molecule”, el sistema sugiere, entre otros, los siguientes términos compuestos: “surface molecules”, “cell-adhesion molecules”, “biological macro-molecules”, lo que puede ayudar en dicha navegación. 
+ * Una [interfaz de navegación](http://demo.inno.oeg-upm.net), desarrollada en colaboración con el [AI.nnovation Space](https://www.ainnovation.upm.es/), que permite hacer búsquedas de palabras clave o términos compuestos generados automáticamente a partir de los textos, y navegar por los artículos científicos cuyo formato PDF está disponible de manera abierta. Por el momento, estos documentos representan una muy pequeña fracción de todos los artículos publicados en el corpus (menos del 3%), aunque se irán incorporando al sistema según se vayan liberando. Por ejemplo, como se muestra en la figura, si se teclea la palabra “molecule”, el sistema sugiere, entre otros, los siguientes términos compuestos: “surface molecules”, “cell-adhesion molecules”, “biological macro-molecules”, lo que puede ayudar en dicha navegación.
 
 ![Grafo 2](../img/servicios/keyq.png "Grafo 2")
