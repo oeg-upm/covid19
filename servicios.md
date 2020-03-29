@@ -19,7 +19,7 @@ También se pueden hacer consultas más complejas, como la que permite buscar lo
 
 Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el GIST 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
 
-![Indice](img/solr.png "Indice")
+![Indice](/img/solr.png "Indice")
 
  * Un modelo probabilístico de tópicos entrenado con este corpus de documentos y desplegado en [http://librairy.linkeddata.es/covid19-model/](http://librairy.linkeddata.es/covid19-model/). Este modelo identifica los términos más descriptivos, en el contexto de este corpus, para 3.253 medicamentos identificados a través de su código ATC. Por ejemplo, para cualquier texto este modelo nos puede decir los medicamentos que se han utilizado más habitualmente en textos similares.
 
