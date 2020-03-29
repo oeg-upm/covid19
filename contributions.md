@@ -13,17 +13,17 @@ Discover how the Anatomical Therapeutic Chemical Classification System is presen
 
 ### Corpus Browsing
 Browse the CORD19 corpus discovering related articles
-![Corpus Browsing]("../img/contributions/explorer-2.png")
+![Corpus Browsing](../img/contributions/explorer-2.png)
 
 ### Bio-NLP
 Identifies drugs (and ATC codes) in pieces of text
 
-![Bio-NLP]("../img/contributions/bio-nlp-2.png")
+![Bio-NLP](../img/contributions/bio-nlp-2.png)
 
 ### CORD19 Stats
 Some statistics about this annotated corpus. Use the GIST code: 4f726911fd9908ffc3a46837b15d8011
   
-[CORD19 Stats]("../img/contributions/dashboard-2.png")
+[CORD19 Stats](../img/contributions/dashboard-2.png)
             
             
 <!-- Section 
