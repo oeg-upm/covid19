@@ -3,7 +3,7 @@ layout: page
 title: Servicios disponibles
 ---
 
- * **Librairy-BioNLP**: Un [módulo de código abierto](https://github.com/librairy/bio-nlp) y un [servicio abierto](https://librairy.github.io/bio-nlp/) para la anotación de textos con códigos ATC (Sistema de Clasificación Anatómica, Terapéutica, Química) de principios activos (nivel 5) y subgrupos químicos (nivel 4), que puede ser utilizado por cualquier usuario o desarrollador que desee realizar anotaciones sobre textos.
+ * **librAIry-BioNLP**: Un [servicio abierto](https://librairy.github.io/bio-nlp/) para la anotación de textos con códigos ATC (Sistema de Clasificación Anatómica, Terapéutica, Química) de principios activos (nivel 5) y subgrupos químicos (nivel 4), que puede ser utilizado por cualquier usuario o desarrollador que desee realizar anotaciones sobre textos ([código fuente](https://github.com/librairy/bio-nlp)).
 
  * **CORD19-SOLR**: Un [índice SOLR](https://librairy.linkeddata.es/data/covid/select?q=*:*) con todos los documentos indexados. Este índice no sólo incluye los datos del corpus, sino también todas las anotaciones que hemos realizado hasta el momento de:
 
@@ -15,7 +15,7 @@ title: Servicios disponibles
    * Buscar los [artículos científicos donde aparecen medicamentos de la familia del lopinavir](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J05AR).
    * Buscar los [artículos científicos que describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t%3Aantiviral_therapy%20AND%20labels5_t%3AS01AD05)
 
- Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el GIST 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
+ Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
 
 ![Indice](../img/servicios/solr.png "Indice")
 
