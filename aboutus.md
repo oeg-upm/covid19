@@ -9,7 +9,7 @@ Esta iniciativa ha surgido a partir de los esfuerzos iniciales del [Grupo de Ing
 ### Colaboradores
 Aquí iremos poniendo los nombres de todos los colaboradores:
 - Carlos Badenes (Ontology Engineering Group, UPM, España)
-- Beatriz Lopez (Subdirección General de Farmacia y Productos Sanitarios, Servicio Madrileño de Salud, España)
+- Beatriz López (Subdirección General de Farmacia y Productos Sanitarios, Servicio Madrileño de Salud, España)
 - Pablo Calleja (Ontology Engineering Group, UPM, España)
 - Mariano Rico (Ontology Engineering Group, UPM, España)
 - Oscar Corcho (Ontology Engineering Group, UPM, España)
