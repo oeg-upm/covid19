@@ -28,6 +28,12 @@ Un dashboard con algunas estadísticas sobre el corpus anotado. Usa el código G
 
 ![Dashboard CORD19](../img/contributions/dashboard-2.png)
 
+### [Coronavirus evolution](https://gitlab.etsisi.upm.es/fserra/coronavirus-evolution)
+
+Un conjunto de Jupyter notebooks que permiten visualizar y estimar la evolución de infecciones en España
+
+![Coronavirus evolution](../img/contributions/graficoEvolucion.png)
+
 
 <!-- Section
 <section>
