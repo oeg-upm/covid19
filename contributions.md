@@ -28,9 +28,15 @@ Un dashboard con algunas estadísticas sobre el corpus anotado. Usa el código G
 
 ![Dashboard CORD19](../img/contributions/dashboard-2.png)
 
+### [Navegador basado en Code Galaxies](http://163.117.145.16:8081/#/galaxy/bower?cx=25996&cy=-38812&cz=-10397&lx=-0.0336&ly=0.9601&lz=0.1322&lw=0.2440&ml=150&s=1.75&l=1&v=CORD-19_t50_03)
+
+Navega por el corpus CORD19 usado Code Galaxies (contribución de David Pérez Fernández)
+
+![Navegador basado en Code Galaxies](../img/contributions/TopicModel.png)
+
 ### [Coronavirus evolution](https://gitlab.etsisi.upm.es/fserra/coronavirus-evolution)
 
-Un conjunto de Jupyter notebooks que permiten visualizar y estimar la evolución de infecciones en España
+Un conjunto de Jupyter notebooks que permiten visualizar y estimar la evolución de infecciones en España (contribución de Francisco Serradilla). Estos notebooks no utilizan el corpus CORD-19, pero los incluimos aquí por si pueden resultar de utilidad.
 
 ![Coronavirus evolution](../img/contributions/graficoEvolucion.png)
 
