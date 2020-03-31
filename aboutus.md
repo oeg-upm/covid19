@@ -15,3 +15,4 @@ Aquí iremos poniendo los nombres de todos los colaboradores:
 - Oscar Corcho (Ontology Engineering Group, UPM, España)
 - Daniel Garijo (Information Science Institute, University of Southern California, Estados Unidos)
 - Francisco Serradilla (Departamento de Inteligencia Artificial, UPM, España)
+- David Pérez Fernández (Ministerio de Asuntos Económicos y Transformación Digital, España)
