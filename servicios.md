@@ -5,15 +5,23 @@ title: Servicios disponibles
 
  * **librAIry-BioNLP**: Un [servicio abierto](https://librairy.github.io/bio-nlp/) para la anotación de textos con códigos ATC (Sistema de Clasificación Anatómica, Terapéutica, Química) de principios activos (nivel 5) y subgrupos químicos (nivel 4), que puede ser utilizado por cualquier usuario o desarrollador que desee realizar anotaciones sobre textos ([código fuente](https://github.com/librairy/bio-nlp)).
 
- * **CORD19-SOLR**: Un [índice SOLR](https://librairy.linkeddata.es/data/covid/select?q=*:*) con todos los documentos indexados. Este índice no sólo incluye los datos del corpus, sino también todas las anotaciones que hemos realizado hasta el momento de:
+ * **CORD19-Repository**: Un repositorio documental que facilita el procesamiento automático de las publicaciones científicas disponibles en el corpus CORD-19 mediante la creación de los siguientes recursos: 
+ 
+    * Colecciones en SOLR: 
+      * 33.244 [artículos científicos](http://librairy.linkeddata.es/data/#/covid/core-overview) anotados con los medicamentos (códigos ATC) y enfermedades: 
+      * 5.298.063 [frases extraídas automáticamente de los artículos](http://librairy.linkeddata.es/data/#/covid-sentences/core-overview) y anotadas también con los medicamentos (ATC) y enfermedades: 
 
-   * Códigos ATC de nivel 4 y 5, generados con el servicio anterior: labels4_t y labels5_t
-   * Diagnósticos, patologías y síntomas (generados con la herramienta [CliNER](http://text-machine.cs.uml.edu/cliner/)): annot_cliner_problems_t
+    * [Dashboard](https://librairy.linkeddata.es/data/dashboard), con grafos y estadísticas sobre la colección de artículos. Se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice
+    
+    * [Explorador](https://librairy.github.io/covid19/explorer.html), mediante etiquetas creadas a partir de las anotaciones y a partir de las representaciones vectoriales de las publicaciones, permite filtrar y relacionar los documentos: 
 
- Por ejemplo, se pueden buscar los artículos científicos que:
-   * [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s).
-   * [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s).
-   * [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s)
+ Con estos recursos se pueden buscar los artículos científicos que:  
+      * [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s,url_s)
+      
+      * [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s,url_s)
+      
+      * [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s)
+ Este índice no sólo incluye los datos del corpus, sino también todas las anotaciones que hemos realizado hasta el momento de:
 
  Este índice puede ser consultado de manera gráfica a través de un cuadro de mando muy preliminar (sólo orientado de momento para usuarios expertos), para poder establecer los filtros anteriores. El cuadro de mando está disponible en [http://librairy.linkeddata.es/data/dashboard](http://librairy.linkeddata.es/data/dashboard) (se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice).
 
