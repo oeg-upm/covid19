@@ -15,10 +15,7 @@ title: Servicios disponibles
     
     * [Explorador](https://librairy.github.io/covid19/explorer.html), mediante etiquetas creadas a partir de las anotaciones y a partir de las representaciones vectoriales de las publicaciones, permite filtrar y relacionar los documentos: 
 
- Con estos recursos se pueden buscar los artículos científicos que:  
-      * [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s,url_s)
-      * [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s,url_s)
-      * [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s)
+ Con estos recursos se pueden buscar los artículos científicos que: [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s,url_s), [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s,url_s), [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s)
 
 
  * Un [modelo probabilístico de tópicos entrenado con este corpus de documentos](http://librairy.linkeddata.es/covid19-model/). Este modelo identifica los términos más descriptivos, en el contexto de este corpus, para 3.253 medicamentos identificados a través de su código ATC. Para cualquier texto este modelo nos puede decir los medicamentos que se han utilizado más habitualmente en textos similares. Por ejemplo, las palabras que aparecen asociadas más frecuentemente a la combinación de los principios activos estreptomicina e isoniazida, utilizados para el tratamiento de la tuberculosis (cuyo tópico se corresponde con el código ATC: J04AM01) [son](http://librairy.linkeddata.es/covid19-model/topics/3/words): feline, fcov, fipv, fcv, fecv, ccov, mnv, norovirus, fip y serotype.
