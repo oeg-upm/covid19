@@ -21,8 +21,6 @@ title: Servicios disponibles
       * [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s)
 
 
-![Indice](../img/servicios/solr.png "Indice")
-
  * Un [modelo probabilístico de tópicos entrenado con este corpus de documentos](http://librairy.linkeddata.es/covid19-model/). Este modelo identifica los términos más descriptivos, en el contexto de este corpus, para 3.253 medicamentos identificados a través de su código ATC. Para cualquier texto este modelo nos puede decir los medicamentos que se han utilizado más habitualmente en textos similares. Por ejemplo, las palabras que aparecen asociadas más frecuentemente a la combinación de los principios activos estreptomicina e isoniazida, utilizados para el tratamiento de la tuberculosis (cuyo tópico se corresponde con el código ATC: J04AM01) [son](http://librairy.linkeddata.es/covid19-model/topics/3/words): feline, fcov, fipv, fcv, fecv, ccov, mnv, norovirus, fip y serotype.
 
  * Un grafo de principios activos, relacionados entre sí por las intersecciones en las distribuciones de palabras de los documentos en los que aparecen, de acuerdo con el modelo de tópicos anterior. La [representación visual de este grafo](https://librairy.github.io/covid19/) está disponible en formato reutilizable para que pueda ser utilizado por los investigadores. Algunas otras representaciones se ofrecen a continuación:
