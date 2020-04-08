@@ -8,15 +8,12 @@ title: Servicios disponibles
  * **CORD19-Repository**: Un repositorio documental que facilita el procesamiento automático de las publicaciones científicas disponibles en el corpus CORD-19 mediante la creación de los siguientes recursos: 
  
     * Colecciones en SOLR: 
-      * 33.244 [artículos científicos](http://librairy.linkeddata.es/data/#/covid/core-overview) anotados con los medicamentos (códigos ATC) y enfermedades: 
-      * 5.298.063 [frases extraídas automáticamente de los artículos](http://librairy.linkeddata.es/data/#/covid-sentences/core-overview) y anotadas también con los medicamentos (ATC) y enfermedades: 
+      * 33.244 [artículos científicos](http://librairy.linkeddata.es/data/#/covid/core-overview) anotados con los medicamentos (códigos ATC) y enfermedades. Con estos recursos se pueden buscar los artículos científicos que: [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s,url_s), [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s,url_s), [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s) 
+      * 5.298.063 [frases extraídas automáticamente de los artículos](http://librairy.linkeddata.es/data/#/covid-sentences/core-overview) y anotadas también con los medicamentos (ATC) y enfermedades. 
 
-    * [Dashboard](https://librairy.linkeddata.es/data/dashboard), con grafos y estadísticas sobre la colección de artículos. Se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice
+    * [Dashboard](https://librairy.linkeddata.es/data/dashboard), con grafos y estadísticas sobre la colección de artículos. Se debe cargar el [GIST](https://gist.github.com/cbadenes/4f726911fd9908ffc3a46837b15d8011) 4f726911fd9908ffc3a46837b15d8011 para poder acceder a los datos de este índice.
     
-    * [Explorador](https://librairy.github.io/covid19/explorer.html), mediante etiquetas creadas a partir de las anotaciones y a partir de las representaciones vectoriales de las publicaciones, permite filtrar y relacionar los documentos: 
-
- Con estos recursos se pueden buscar los artículos científicos que: [mencionen la cloroquina](http://librairy.linkeddata.es/data/covid/select?q=labels5_t:P01BA01&fl=id,name_s,url_s), [utilicen medicamentos que combinan penicilina y/o inhibidores de la beta-lactamasa](http://librairy.linkeddata.es/data/covid/select?q=labels4_t:J01CR&fl=id,name_s,url_s), [describan tratamientos antivirales con Interferon](https://librairy.linkeddata.es/solr/covid/select?q=annot_cliner_treatments_t:antiviral_therapy%20AND%20labels5_t:S01AD05&fl=id,name_s,url_s)
-
+    * [Explorador](https://librairy.github.io/covid19/explorer.html), mediante etiquetas creadas a partir de las anotaciones y a partir de las representaciones vectoriales de las publicaciones, permite filtrar y relacionar los documentos.
 
  * Un [modelo probabilístico de tópicos entrenado con este corpus de documentos](http://librairy.linkeddata.es/covid19-model/). Este modelo identifica los términos más descriptivos, en el contexto de este corpus, para 3.253 medicamentos identificados a través de su código ATC. Para cualquier texto este modelo nos puede decir los medicamentos que se han utilizado más habitualmente en textos similares. Por ejemplo, las palabras que aparecen asociadas más frecuentemente a la combinación de los principios activos estreptomicina e isoniazida, utilizados para el tratamiento de la tuberculosis (cuyo tópico se corresponde con el código ATC: J04AM01) [son](http://librairy.linkeddata.es/covid19-model/topics/3/words): feline, fcov, fipv, fcv, fecv, ccov, mnv, norovirus, fip y serotype.
 
