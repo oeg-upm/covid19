@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Servicios disponibles
+title: Servicios
 ---
 
  * **librAIry-BioNLP**: Un [servicio abierto](https://librairy.github.io/bio-nlp/) para la anotación de textos con códigos ATC (Sistema de Clasificación Anatómica, Terapéutica, Química) de principios activos (nivel 5) y subgrupos químicos (nivel 4), que puede ser utilizado por cualquier usuario o desarrollador que desee realizar anotaciones sobre textos ([código fuente](https://github.com/librairy/bio-nlp)).
